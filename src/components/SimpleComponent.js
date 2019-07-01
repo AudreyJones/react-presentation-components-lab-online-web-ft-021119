@@ -3,7 +3,7 @@ import React from 'react'
 
 class SimpleComponent extends Component{
     // super()
-    this.state = {
+    state = {
         mood: 'happy'
     }
     render(){
